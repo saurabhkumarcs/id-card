@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width:100%;
+}
+main{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+
+}
+main .left{
+    width: 40%;
+    height: 100%;
+    /* background-color: green; */
+}
+
+main .left nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+main .left nav .first h3{
+    font-size: 70px;
+    /* font-weight: 1000; */
+    color: blue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    /* margin-top: 20px; */
+    height: 80px;
+    gap: 20px;
+}
+main .left nav .second{
+    width: 60%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+main .left nav .second h1{
+    font-size: 32px;
+    font-weight: 600;
+    color: blue;
+    text-decoration: underline;
+}
+main .left nav .second h3{
+    font-size: 27px;
+    font-weight: 600;
+    color: blue;
+}
+main .left .student{
+    width: 100%;
+    height: 40px;
+    /* background-color: violet; */
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center ;
+}
+main .left .student .student1{
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+main .left .student .student2{
+    font-size: 30px;
+    background-color: red;
+    color: white;
+}
+main .left img{
+    height: 200px;
+    justify-items: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+main .left h2{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+main .left .first span{
+     font-size: 100px;
+    /* font-weight: 1000; */
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 100px;
+}
+main .left .first p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+
+}
+main .right{
+    width: 40%;
+    height: 100%;
+    padding: 5px 10px;
+    /* background-color: yellow; */
+}
+main .right h2{
+    font-size: 24px;
+    text-align: center;
+}
+main .right .box p{
+    font-size: 20px;
+}
+main .right .box{
+    width: 98%;
+    height: 230px;
+    border: 1px solid black;
+    /* background-color: aquamarine; */
+    padding: 10px;
+    margin: 5px;
+    font-size: 19px;
+}
